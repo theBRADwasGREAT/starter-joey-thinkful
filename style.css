@@ -1,0 +1,44 @@
+header {
+    background-color: #0B1C51;
+}
+
+header h1 {
+    font-size: 52px;
+    color: white;
+    text-align: center;
+}
+
+header nav {
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul {
+    display: flex;
+    font-family: Montserrat;
+    color: white;
+}
+
+header nav a {
+    color: white;
+}
+
+header nav li {
+    display: inline-block;
+    padding: 10px
+}
+
+header nav ul li: :last-child a {
+    margin-right: 0;
+}
+
+@media all and (min-width: 800px) {
+    header {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    header h1 {
+        font-size: 48px;
+    }
+}
